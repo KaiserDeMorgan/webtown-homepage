@@ -1,0 +1,100 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+#hero
+{
+    margin: 0;
+    text-align: center;
+    background-image: url("images/toronto-background.jpg");
+    background-size: cover;
+    height: 300px;
+    padding: 40px;
+    padding-bottom: 30px;
+}
+
+#title
+{
+    display: block;
+    margin: 30px auto 30px auto;
+    max-width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    color: #F1FAEE;
+    background-color: #1D3557;
+}
+
+#second-title
+{
+    display: block;
+    margin: 0px auto 0px auto;
+    max-width: 500px;
+    padding: 10px;
+    border-radius: 20px;
+    color: #F1FAEE;
+    background-color: #1D3557;   
+}
+
+img {
+    max-width: 100px;
+}
+
+#activities
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.attraction-width
+{
+    max-width: 200px;
+}
+
+.attraction-image
+{
+    border-radius: 50%;
+    height: 100px;
+}
+
+#guide
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto 10px auto;
+    padding: 20px;
+    background-color: #A8DADC;
+    max-width: 400px;
+    border-bottom: 10px solid #1D3557;
+    border-radius: 40px;
+}
+
+#guide-description
+{
+    max-width: 150px;
+}
+
+.text-color
+{
+    color: #1D3557;
+    margin: 0 auto 0 auto;
+}
+
+#guide-image
+{
+    max-width: 200px;
+    border-radius: 20px;
+}
+
+#top-two
+{
+    display: block;
+    max-width: 350px;
+    margin: 30px auto 10px auto;
+}
